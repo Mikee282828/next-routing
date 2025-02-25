@@ -40,6 +40,13 @@ export default function LinkButton() {
       >
         Route three
       </Link>
+      <Link
+        className=
+          " hover:text-blue-400 w-full text-center block mb-3"
+        href={"/"}
+      >
+        Home
+      </Link>
 
     </div>
   );
